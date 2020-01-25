@@ -47,10 +47,6 @@ void print_tree(struct node *head){
 			print_tree(head->firstChild);
 			print_tree(head->nextSib);
 		}
-
-		//DFS algorithem printing..! add else with return;
-		// print_tree(head->firstChild);
-		// print_tree(head->nextSib);
 	}
 }
 
